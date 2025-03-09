@@ -20,6 +20,8 @@ most important part. Add your answer to this markdown file.
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
 
+runtime analysis
+The adjacency matrix will be an N x N array and the outerloop will go through each node in the array so you get O(n). The innerloop will then go through each possible connection checking if the number is a 0 or a 1 if its a 1 then it adds the node number to the adjacency list meaning the inner loop will run at O(n) times with the adding opperator adding constant time. So it would run at O(n) x O(n) = O(n^2) times.
 
 code used from my last semester submission
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
